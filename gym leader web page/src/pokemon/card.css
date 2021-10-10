@@ -1,0 +1,102 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:blue;
+}
+.button {
+    margin-right: 1100px;
+    background-color: lightblue;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    box-shadow: 5px 5px 10px skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .button:hover {
+        width: 200px;
+        height: 200px;
+    }
+.card {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 360px;
+    border-radius: 10px;
+    border: solid black 2px;
+    background-color: lightskyblue;
+    margin-right: 10px;
+}
+    .top {
+    margin-top: 10px;
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.middle {
+    height: 50%;
+    width: 100%;
+}
+
+.end {
+    height: 20%;
+    width: 100%;
+}
+
+.power {
+    height: 10%;
+    width: 100%;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.power-size {
+    font-size: 50px;
+}
+
+.water {
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    background-color: blue;
+    margin-right: 5px;
+}
+.fire {
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    background-color: red;
+    margin-right: 5px;
+}
+.fairly {
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    background-color: hotpink;
+    margin-right: 5px;
+}
+.spell {
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    background-color: blue;
+    margin-right: 5px;
+}
+.f{
+    background-color:darkred;
+}
+.p{
+    background-color:hotpink;
+}
+.s{
+    background-color:purple;
+}
